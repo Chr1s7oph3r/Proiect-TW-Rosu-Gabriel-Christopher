@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Movie App - Platformă Recenzii & Filme</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  
+  <header class="site-header">
+    <div class="nav-container">
+      <div class="logo-area">
+        <span class="logo-badge">M</span>
+        <span class="logo-text">MOVIE APP</span>
+      </div>
+      <nav class="main-navigation">
+        <a href="#" class="nav-link active">Dashboard</a>
+        <a href="#" class="nav-link">Search</a>
+        <a href="#" class="nav-link">Movies</a>
+        <a href="#" class="nav-link">Reviews</a>
+        <a href="#" class="nav-link">Marathons</a>
+      </nav>
+    </div>
+  </header>
+
+ 
+  <section class="hero-search-section">
+    <div class="hero-content">
+      <h1>Bine ai venit în universul filmelor</h1>
+      <p>Explorează baza de date, descoperă recenzii și gestionează-ți maratoanele cinematografice.</p>
+      
+      
+      <form class="search-bar-form">
+        <input type="text" placeholder="Caută după titlu, gen, actor sau regizor..." aria-label="Caută filme" />
+        <button type="submit">Caută în DB</button>
+      </form>
+    </div>
+  </section>
+
+  
+  <main class="main-dashboard-grid">
+    
+   
+    <aside class="panel stats-sidebar">
+      <h2>Statistici Platformă</h2>
+      <ul class="stats-list">
+        <li class="stat-item">
+          <span class="stat-label">Filme în DB</span>
+          <span class="stat-value">--</span>
+        </li>
+        <li class="stat-item">
+          <span class="stat-label">Utilizatori</span>
+          <span class="stat-value">--</span>
+        </li>
+        <li class="stat-item">
+          <span class="stat-label">Recenzii</span>
+          <span class="stat-value">--</span>
+        </li>
+        <li class="stat-item">
+          <span class="stat-label">Maratoane Active</span>
+          <span class="stat-value">--</span>
+        </li>
+      </ul>
+
+      <div class="quick-actions">
+        <h3>Acțiuni Rapide</h3>
+        <a href="#" class="action-btn">Adaugă Film Nou</a>
+        <a href="#" class="action-btn">Creează Maraton</a>
+      </div>
+    </aside>
+
+    
+    <section class="panel content-panel">
+      <div class="section-heading">
+        <h2>Filme Populare & Recenzii Recente</h2>
+        <span class="sub-info">Din tabelele Movies & Reviews</span>
+      </div>
+
+      
+      <div class="movies-grid-container">
+        
+        
+        <article class="movie-card">
+          <div class="poster-placeholder poster-interstellar">
+            <span class="imdb-rating">⭐ 8.6</span>
+          </div>
+          <div class="movie-card-info">
+            <span class="genre-tag">Sci-Fi / Adventure</span>
+            <h3>Interstellar</h3>
+            <p class="movie-snippet">"O călătorie vizuală extraordinară dincolo de galaxii..."</p>
+            <div class="card-footer-info">
+              <small>Adăugat de: Admin</small>
+              <a href="#" class="details-link">Detalii</a>
+            </div>
+          </div>
+        </article>
+
+       
+        <article class="movie-card">
+          <div class="poster-placeholder poster-inception">
+            <span class="imdb-rating">⭐ 8.8</span>
+          </div>
+          <div class="movie-card-info">
+            <span class="genre-tag">Action / Sci-Fi</span>
+            <h3>Inception</h3>
+            <p class="movie-snippet">"Un concept genial despre lumea viselor regizat de Nolan."</p>
+            <div class="card-footer-info">
+              <small>Adăugat de: Admin</small>
+              <a href="#" class="details-link">Detalii</a>
+            </div>
+          </div>
+        </article>
+
+        
+        <article class="movie-card">
+          <div class="poster-placeholder poster-dune">
+            <span class="imdb-rating">⭐ 8.5</span>
+          </div>
+          <div class="movie-card-info">
+            <span class="genre-tag">Adventure / Drama</span>
+            <h3>Dune: Part Two</h3>
+            <p class="movie-snippet">"Imens, epic, o capodoperă a cinematografiei moderne."</p>
+            <div class="card-footer-info">
+              <small>Adăugat de: Admin</small>
+              <a href="#" class="details-link">Detalii</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  
+  <footer class="site-footer">
+    <p>&copy; 2026 Movie App &bull; Proiect Tehnologii Web &bull; Conectat la Baza de Date SQLite</p>
+  </footer>
+
+  
+  <script src="filme.js"></script>
+
+</body>
+</html>
