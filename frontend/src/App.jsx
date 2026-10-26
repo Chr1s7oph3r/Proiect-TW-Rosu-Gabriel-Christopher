@@ -1,38 +1,40 @@
+import { useState } from "react";
 import "./App.css";
 import FilmList from "./components/FilmList.jsx";
 
-// Am îmbogățit datele cu detaliile vizuale din Etapa 1
-const filme = [
-  { 
-    id: 1, 
-    titlu: "Interstellar", 
-    vazut: true, 
-    gen: "Sci-Fi / Adventure", 
-    rating: 8.6,
-    snippet: '"O călătorie vizuală extraordinară dincolo de galaxii..."',
-    posterClass: "poster-interstellar"
-  },
-  { 
-    id: 2, 
-    titlu: "Inception", 
-    vazut: false, 
-    gen: "Action / Sci-Fi", 
-    rating: 8.8,
-    snippet: '"Un concept genial despre lumea viselor regizat de Nolan."',
-    posterClass: "poster-inception"
-  },
-  { 
-    id: 3, 
-    titlu: "Dune: Part Two", 
-    vazut: false, 
-    gen: "Adventure / Drama", 
-    rating: 8.5,
-    snippet: '"Imens, epic, o capodoperă a cinematografiei moderne."',
-    posterClass: "poster-dune"
-  }
+const FILME_INITIALE = [
+  { id: 1, titlu: "Interstellar", vazut: true, gen: "Sci-Fi / Adventure", rating: 8.6, snippet: '"O călătorie vizuală..."', posterClass: "poster-interstellar" },
+  { id: 2, titlu: "Inception", vazut: false, gen: "Action / Sci-Fi", rating: 8.8, snippet: '"Un concept genial..."', posterClass: "poster-inception" },
+  { id: 3, titlu: "Dune: Part Two", vazut: false, gen: "Adventure / Drama", rating: 8.5, snippet: '"Imens, epic, o capodoperă..."', posterClass: "poster-dune" }
 ];
 
+function temaInitiala() {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
 export default function App() {
+ 
+  const [filme, setFilme] = useState(FILME_INITIALE);
+  const [tema, setTema] = useState(temaInitiala);
+
+
+  function handleToggle(id) {
+    setFilme((prev) =>
+      prev.map((f) => (f.id === id ? { ...f, vazut: !f.vazut } : f))
+    );
+  }
+
+  function handleDelete(id) {
+    setFilme((prev) => prev.filter((f) => f.id !== id));
+  }
+
+  function handleTema() {
+    const noua = tema === "dark" ? "light" : "dark";
+    setTema(noua);
+    document.documentElement.dataset.theme = noua;
+  }
+
+  
   const filmeDeVazut = filme.filter((f) => !f.vazut).length;
 
   return (
@@ -46,9 +48,10 @@ export default function App() {
           <nav className="main-navigation">
             <a href="#" className="nav-link active">Dashboard</a>
             <a href="#" className="nav-link">Search</a>
-            <a href="#" className="nav-link">Movies</a>
-            <a href="#" className="nav-link">Reviews</a>
-            <a href="#" className="nav-link">Marathons</a>
+            {/* Butonul pentru temă */}
+            <button className="theme-toggle" onClick={handleTema} aria-pressed={tema === "dark"}>
+              {tema === "dark" ? "☀️ Mod luminos" : "🌙 Mod întunecat"}
+            </button>
           </nav>
         </div>
       </header>
@@ -56,17 +59,12 @@ export default function App() {
       <section className="hero-search-section">
         <div className="hero-content">
           <h1>Bine ai venit în universul filmelor</h1>
-          {/* Am combinat textul tău original cu datele calculate */}
           <p>
             Explorează baza de date, descoperă recenzii și gestionează-ți maratoanele cinematografice. <br/>
             <small style={{ color: "var(--accent-cyan)", fontWeight: "600" }}>
               Ai {filme.length} filme în bază, dintre care {filmeDeVazut} de văzut.
             </small>
           </p>
-          <form className="search-bar-form">
-            <input type="text" placeholder="Caută după titlu, gen, actor sau regizor..." aria-label="Caută filme" />
-            <button type="submit">Caută în DB</button>
-          </form>
         </div>
       </section>
 
@@ -82,36 +80,17 @@ export default function App() {
               <span className="stat-label">De văzut</span>
               <span className="stat-value">{filmeDeVazut}</span>
             </li>
-            {/* Am adus înapoi datele lipsă */}
-            <li className="stat-item">
-              <span className="stat-label">Utilizatori</span>
-              <span className="stat-value">--</span>
-            </li>
-            <li className="stat-item">
-              <span className="stat-label">Maratoane Active</span>
-              <span className="stat-value">--</span>
-            </li>
           </ul>
-          <div className="quick-actions">
-            <h3>Acțiuni Rapide</h3>
-            <a href="#" className="action-btn">Adaugă Film Nou</a>
-            <a href="#" className="action-btn">Creează Maraton</a>
-          </div>
         </aside>
 
         <section className="panel content-panel">
           <div className="section-heading">
             <h2>Filme Populare & Recenzii Recente</h2>
-            <span className="sub-info">Din tabelele Movies & Reviews</span>
           </div>
           
-          <FilmList filme={filme} />
+          <FilmList filme={filme} onToggle={handleToggle} onDelete={handleDelete} />
         </section>
       </main>
-
-      <footer className="site-footer">
-        <p>&copy; 2026 Movie App &bull; Proiect Tehnologii Web &bull; Conectat la Baza de Date SQLite</p>
-      </footer>
     </>
   );
 }
