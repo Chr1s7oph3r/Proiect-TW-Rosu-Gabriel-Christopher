@@ -1,15 +1,18 @@
 export default function FilmCard({ film, onToggle, onDelete }) {
   return (
     <article className={film.vazut ? "movie-card done" : "movie-card"}>
-      <div className={`poster-placeholder ${film.posterClass}`}>
-        <span className="imdb-rating">⭐ {film.rating}</span>
+      <div className="poster-container">
+        <img src={film.posterUrl} alt={`Poster ${film.titlu}`} className="movie-poster" />
+        {/* Nota prestabilită TMDB */}
+        <span className="imdb-rating" title="The Movie Database Rating">
+          TMDB ⭐ {film.ratingDb}
+        </span>
       </div>
       
       <div className="movie-card-info">
         <span className="genre-tag">{film.gen}</span>
         
-       
-        <label className="movie-title-toggle">
+        <label className="movie-title-toggle" onClick={(e) => e.stopPropagation()}>
           <input 
             type="checkbox" 
             checked={film.vazut} 
@@ -20,11 +23,22 @@ export default function FilmCard({ film, onToggle, onDelete }) {
           </h3>
         </label>
         
-        <p className="movie-snippet">{film.snippet}</p>
+        <div className="review-box">
+          <div className="review-box-header">
+            <strong>Părerea ta:</strong>
+            {/* Nota acordată de tine apare aici doar dacă e mai mare ca 0 */}
+            {film.notaTa > 0 && (
+              <span className="user-rating-badge">🌟 {film.notaTa}/10</span>
+            )}
+          </div>
+          <p className="movie-snippet">
+            {film.recenzie ? `"${film.recenzie}"` : "Nu ai scris nicio recenzie încă."}
+          </p>
+        </div>
         
-        <div className="card-footer-info" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <small>Stare: {film.vazut ? "Văzut" : "De văzut"}</small>
-         
+        <div className="card-footer-info" onClick={(e) => e.stopPropagation()}>
+          <small>Stare: {film.vazut ? "Vizionat" : "De văzut"}</small>
+          
           <button 
             className="btn-delete-movie" 
             onClick={() => onDelete(film.id)}
