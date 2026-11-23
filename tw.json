@@ -1,0 +1,9 @@
+{
+  "resource": "filme",
+  "title": "titlu",
+  "done": "vazut",
+  "sample": {
+    "an": 2024,
+    "gen": "Action"
+  }
+}
