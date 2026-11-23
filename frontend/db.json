@@ -1,0 +1,1078 @@
+{
+  "filme": [
+    {
+      "id": 1,
+      "titlu": "Interstellar",
+      "an": 2014,
+      "durata": 169,
+      "vazut": true,
+      "favorit": true,
+      "gen": "Sci-Fi",
+      "ratingDb": 8.7,
+      "recenzie": "Coloană sonoră monumentală și o poveste emoționantă despre timp și familie.",
+      "notaTa": 10,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "regizor": "Christopher Nolan",
+      "cast": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
+      "sinopsis": "O echipă de exploratori călătorește printr-o gaură de vierme în spațiu în încercarea de a asigura supraviețuirea omenirii pe o planetă nouă.",
+      "recenziiComunitate": [
+        {
+          "id": 101,
+          "userId": 1,
+          "autor": "@cinefil_ro",
+          "nota": 10,
+          "data": "2026-11-22",
+          "text": "Scena cu planeta lui Miller și muzica lui Hans Zimmer rămân inegalabile.",
+          "likes": 14
+        },
+        {
+          "id": 102,
+          "userId": 2,
+          "autor": "@andreea_v",
+          "nota": 9,
+          "data": "2026-11-18",
+          "text": "Unul dintre puținele filme SF care reușește să combine știința cu emoția pură.",
+          "likes": 8
+        },
+        {
+          "id": 103,
+          "userId": 6,
+          "autor": "@desert_watcher",
+          "nota": 9,
+          "data": "2026-11-10",
+          "text": "Vizual copleșitor. Merită revăzut pe cel mai mare ecran posibil.",
+          "likes": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titlu": "Inception",
+      "an": 2010,
+      "durata": 148,
+      "vazut": true,
+      "favorit": true,
+      "gen": "Sci-Fi",
+      "ratingDb": 8.8,
+      "recenzie": "Concept genial, montaj impecabil și un final care te pune pe gânduri.",
+      "notaTa": 9,
+      "posterUrl": "https://www.movieposters.com/cdn/shop/products/7dfddd911b8040729896c5be83f8e139_6e2f4149-8cb4-414c-a33b-9e0065c55af3.jpg?v=1762491665&width=1680",
+      "regizor": "Christopher Nolan",
+      "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page",
+      "sinopsis": "Un hoț specializat în extragerea secretelor din subconștient primește o misiune inversă: să planteze o idee în mintea unui lider corporativ.",
+      "recenziiComunitate": [
+        {
+          "id": 201,
+          "userId": 3,
+          "autor": "@alex_movies",
+          "nota": 10,
+          "data": "2026-11-21",
+          "text": "L-am văzut de trei ori și tot descopăr detalii noi pe fiecare nivel de vis.",
+          "likes": 19
+        },
+        {
+          "id": 202,
+          "userId": 4,
+          "autor": "@mihai_k",
+          "nota": 8,
+          "data": "2026-11-12",
+          "text": "Ritmul este excelent, iar lupta din holul rotativ este pură artă.",
+          "likes": 6
+        },
+        {
+          "id": 203,
+          "userId": 11,
+          "autor": "@fincher_fan",
+          "nota": 9,
+          "data": "2026-11-04",
+          "text": "Structură narativă de ceas elvețian, chiar dacă explicațiile de la început sunt dense.",
+          "likes": 9
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titlu": "Dune: Part Two",
+      "an": 2024,
+      "durata": 166,
+      "vazut": false,
+      "favorit": false,
+      "gen": "Adventure",
+      "ratingDb": 8.5,
+      "recenzie": "",
+      "notaTa": 0,
+      "posterUrl": "https://www.movieposters.com/cdn/shop/files/dune-part-two_tidfhvjl.jpg?v=1762975408&width=1680",
+      "regizor": "Denis Villeneuve",
+      "cast": "Timothée Chalamet, Zendaya, Rebecca Ferguson",
+      "sinopsis": "Paul Atreides se alătură fremenilor pe Arrakis pentru a-și răzbuna familia și a preveni un viitor teribil pe care doar el îl poate prevedea.",
+      "recenziiComunitate": [
+        {
+          "id": 301,
+          "userId": 6,
+          "autor": "@desert_watcher",
+          "nota": 10,
+          "data": "2026-11-23",
+          "text": "Spectacol vizual și auditiv de proporții epice, demn de IMAX.",
+          "likes": 12
+        },
+        {
+          "id": 302,
+          "userId": 1,
+          "autor": "@cinefil_ro",
+          "nota": 9,
+          "data": "2026-11-15",
+          "text": "Secvența alb-negru de pe Giedi Prime este una dintre cele mai bune ale deceniului.",
+          "likes": 11
+        },
+        {
+          "id": 303,
+          "userId": 12,
+          "autor": "@midnight_reel",
+          "nota": 8,
+          "data": "2026-11-03",
+          "text": "Impresionant ca scară și design de sunet, deși finalul grăbește puțin ritmul.",
+          "likes": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titlu": "The Matrix",
+      "an": 1999,
+      "durata": 136,
+      "vazut": true,
+      "favorit": false,
+      "gen": "Sci-Fi",
+      "ratingDb": 8.7,
+      "recenzie": "Filmul care a schimbat cinematografia SF modernă.",
+      "notaTa": 9,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+      "regizor": "Lana Wachowski, Lilly Wachowski",
+      "cast": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+      "sinopsis": "Un programator descoperă că realitatea pe care o cunoaște este o simulare creată de mașini și se alătură unei rebeliuni pentru eliberarea omenirii.",
+      "recenziiComunitate": [
+        {
+          "id": 401,
+          "userId": 7,
+          "autor": "@neo_99",
+          "nota": 10,
+          "data": "2026-11-19",
+          "text": "A îmbătrânit incredibil de bine. Filosofia și coregrafia rămân un etalon.",
+          "likes": 15
+        },
+        {
+          "id": 402,
+          "userId": 4,
+          "autor": "@mihai_k",
+          "nota": 9,
+          "data": "2026-11-08",
+          "text": "Fiecare cadru are personalitate. Bullet-time a redefinit filmele de acțiune.",
+          "likes": 7
+        },
+        {
+          "id": 403,
+          "userId": 8,
+          "autor": "@gotham_critic",
+          "nota": 8,
+          "data": "2026-10-29",
+          "text": "Un clasic cyberpunk care încă se simte proaspăt și relevant azi.",
+          "likes": 6
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titlu": "The Dark Knight",
+      "an": 2008,
+      "durata": 152,
+      "vazut": false,
+      "favorit": true,
+      "gen": "Action",
+      "ratingDb": 9,
+      "recenzie": "",
+      "notaTa": 0,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "regizor": "Christopher Nolan",
+      "cast": "Christian Bale, Heath Ledger, Aaron Eckhart",
+      "sinopsis": "Când Jokerul declanșează haosul asupra orașului Gotham, Batman trebuie să treacă prin cel mai dur test psihologic și moral al său.",
+      "recenziiComunitate": [
+        {
+          "id": 501,
+          "userId": 8,
+          "autor": "@gotham_critic",
+          "nota": 10,
+          "data": "2026-11-22",
+          "text": "Interpretarea lui Heath Ledger ridică acest thriller mult peste un simplu film cu supereroi.",
+          "likes": 27
+        },
+        {
+          "id": 502,
+          "userId": 3,
+          "autor": "@alex_movies",
+          "nota": 9,
+          "data": "2026-11-14",
+          "text": "Tensiune constantă de la jaful inițial până la ultimul monolog.",
+          "likes": 13
+        },
+        {
+          "id": 503,
+          "userId": 5,
+          "autor": "@elena_noir",
+          "nota": 9,
+          "data": "2026-11-02",
+          "text": "Mai aproape de un film polițist clasic tip Heat decât de benzi desenate.",
+          "likes": 10
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titlu": "Oppenheimer",
+      "an": 2023,
+      "durata": 180,
+      "vazut": false,
+      "favorit": false,
+      "gen": "Drama",
+      "ratingDb": 8.4,
+      "recenzie": "",
+      "notaTa": 0,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "regizor": "Christopher Nolan",
+      "cast": "Cillian Murphy, Emily Blunt, Robert Downey Jr.",
+      "sinopsis": "Povestea fizicianului J. Robert Oppenheimer și rolul său decisiv în dezvoltarea primei arme nucleare în cadrul Proiectului Manhattan.",
+      "recenziiComunitate": [
+        {
+          "id": 601,
+          "userId": 9,
+          "autor": "@istoria_film",
+          "nota": 9,
+          "data": "2026-11-20",
+          "text": "Trei ore de tensiune pură construită aproape exclusiv din dialog și montaj.",
+          "likes": 11
+        },
+        {
+          "id": 602,
+          "userId": 1,
+          "autor": "@cinefil_ro",
+          "nota": 8,
+          "data": "2026-11-09",
+          "text": "Cillian Murphy și Robert Downey Jr. fac rolurile carierei.",
+          "likes": 7
+        },
+        {
+          "id": 603,
+          "userId": 11,
+          "autor": "@fincher_fan",
+          "nota": 9,
+          "data": "2026-10-27",
+          "text": "Scena testului Trinity fără sunet te ține cu respirația tăiată.",
+          "likes": 14
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titlu": "La La Land",
+      "an": 2016,
+      "durata": 128,
+      "vazut": false,
+      "favorit": false,
+      "gen": "Drama",
+      "ratingDb": 8,
+      "recenzie": "",
+      "notaTa": 0,
+      "posterUrl": "https://www.movieposters.com/cdn/shop/files/LaLaLand.24x36.jpg?v=1762975415&width=1680",
+      "regizor": "Damien Chazelle",
+      "cast": "Ryan Gosling, Emma Stone, John Legend",
+      "sinopsis": "Un pianist de jazz și o actriță aspirantă se îndrăgostesc în Los Angeles, în timp ce încearcă să își reconcilieze visurile cu realitatea.",
+      "recenziiComunitate": [
+        {
+          "id": 701,
+          "userId": 10,
+          "autor": "@jazz_nights",
+          "nota": 10,
+          "data": "2026-11-21",
+          "text": "Paleta de culori, muzica și ultimul act sunt absolut memorabile.",
+          "likes": 16
+        },
+        {
+          "id": 702,
+          "userId": 2,
+          "autor": "@andreea_v",
+          "nota": 9,
+          "data": "2026-11-11",
+          "text": "Dulce-amărui și sincer. Epilogul spune mai mult decât o oră de dialog.",
+          "likes": 9
+        },
+        {
+          "id": 703,
+          "userId": 12,
+          "autor": "@midnight_reel",
+          "nota": 8,
+          "data": "2026-10-30",
+          "text": "Chiar dacă nu ești fan musical, regia lui Chazelle te cucerește.",
+          "likes": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titlu": "Fight Club",
+      "an": 1999,
+      "durata": 139,
+      "vazut": false,
+      "favorit": false,
+      "gen": "Drama",
+      "ratingDb": 8.8,
+      "recenzie": "",
+      "notaTa": 0,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+      "regizor": "David Fincher",
+      "cast": "Brad Pitt, Edward Norton, Helena Bonham Carter",
+      "sinopsis": "Un angajat insomniac și un vânzător excentric pun bazele unui club clandestin care scapă treptat de sub control.",
+      "recenziiComunitate": [
+        {
+          "id": 801,
+          "userId": 11,
+          "autor": "@fincher_fan",
+          "nota": 10,
+          "data": "2026-11-17",
+          "text": "Satiră tăioasă, regie chirurgicală și una dintre cele mai bune răsturnări de situație.",
+          "likes": 17
+        },
+        {
+          "id": 802,
+          "userId": 5,
+          "autor": "@elena_noir",
+          "nota": 9,
+          "data": "2026-11-06",
+          "text": "Montajul subversiv și umorul negru îl fac imposibil de uitat.",
+          "likes": 8
+        },
+        {
+          "id": 803,
+          "userId": 7,
+          "autor": "@neo_99",
+          "nota": 9,
+          "data": "2026-10-25",
+          "text": "La a doua vizionare observi toate indiciile ascunse încă din prima scenă.",
+          "likes": 12
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titlu": "Parasite",
+      "an": 2019,
+      "durata": 132,
+      "vazut": true,
+      "favorit": true,
+      "gen": "Thriller",
+      "ratingDb": 8.5,
+      "recenzie": "O tranziție impecabilă de la comedie neagră la thriller social sufocant.",
+      "notaTa": 10,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "regizor": "Bong Joon-ho",
+      "cast": "Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong",
+      "sinopsis": "O familie fără venituri se infiltrează treptat în gospodăria unei familii bogate, declanșând o serie neașteptată de evenimente.",
+      "recenziiComunitate": [
+        {
+          "id": 901,
+          "userId": 5,
+          "autor": "@elena_noir",
+          "nota": 10,
+          "data": "2026-11-23",
+          "text": "Scenariu fără cusur. Schimbarea de ton de la jumătatea filmului este genială.",
+          "likes": 22
+        },
+        {
+          "id": 902,
+          "userId": 9,
+          "autor": "@istoria_film",
+          "nota": 10,
+          "data": "2026-11-16",
+          "text": "Arhitectura casei devine ea însăși un personaj care ilustrează prăpastia socială.",
+          "likes": 13
+        },
+        {
+          "id": 903,
+          "userId": 2,
+          "autor": "@andreea_v",
+          "nota": 9,
+          "data": "2026-11-05",
+          "text": "Te face să râzi și să te îngrijorezi în același timp. Oscar absolut meritat.",
+          "likes": 9
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titlu": "The Shawshank Redemption",
+      "an": 1994,
+      "durata": 142,
+      "vazut": true,
+      "favorit": false,
+      "gen": "Drama",
+      "ratingDb": 9.3,
+      "recenzie": "Poveste atemporală despre speranță, răbdare și prietenie.",
+      "notaTa": 10,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+      "regizor": "Frank Darabont",
+      "cast": "Tim Robbins, Morgan Freeman, Bob Gunton",
+      "sinopsis": "Condamnat pe nedrept la închisoare pe viață, bancherul Andy Dufresne își păstrează demnitatea și construiește o prietenie profundă pe parcursul a două decenii.",
+      "recenziiComunitate": [
+        {
+          "id": 1001,
+          "userId": 9,
+          "autor": "@istoria_film",
+          "nota": 10,
+          "data": "2026-11-18",
+          "text": "Narațiunea lui Morgan Freeman și finalul din ploaie rămân momente de aur ale cinematografiei.",
+          "likes": 25
+        },
+        {
+          "id": 1002,
+          "userId": 3,
+          "autor": "@alex_movies",
+          "nota": 10,
+          "data": "2026-11-07",
+          "text": "Nu degeaba e pe locul 1 în majoritatea topurilor de 30 de ani.",
+          "likes": 18
+        },
+        {
+          "id": 1003,
+          "userId": 10,
+          "autor": "@jazz_nights",
+          "nota": 9,
+          "data": "2026-10-28",
+          "text": "Cald, profund uman și imposibil de oprit odată ce îl începi.",
+          "likes": 7
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "titlu": "Whiplash",
+      "an": 2014,
+      "durata": 107,
+      "vazut": false,
+      "favorit": false,
+      "gen": "Drama",
+      "ratingDb": 8.5,
+      "recenzie": "",
+      "notaTa": 0,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+      "regizor": "Damien Chazelle",
+      "cast": "Miles Teller, J.K. Simmons, Paul Reiser",
+      "sinopsis": "Un tânăr baterist ambițios ajunge în orchestra celui mai nemilos profesor de jazz de la conservator, unde obsesia pentru perfecțiune depășește orice limită.",
+      "recenziiComunitate": [
+        {
+          "id": 1101,
+          "userId": 10,
+          "autor": "@jazz_nights",
+          "nota": 10,
+          "data": "2026-11-22",
+          "text": "Ultimele 10 minute au mai multă adrenalină decât orice film de acțiune.",
+          "likes": 21
+        },
+        {
+          "id": 1102,
+          "userId": 4,
+          "autor": "@mihai_k",
+          "nota": 9,
+          "data": "2026-11-13",
+          "text": "J.K. Simmons este absolut terifiant. Montajul pe ritm de tobe e hipnotic.",
+          "likes": 10
+        },
+        {
+          "id": 1103,
+          "userId": 11,
+          "autor": "@fincher_fan",
+          "nota": 9,
+          "data": "2026-11-01",
+          "text": "Un studiu dur despre prețul excelenței, fără compromisuri.",
+          "likes": 8
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "titlu": "Blade Runner 2049",
+      "an": 2017,
+      "durata": 164,
+      "vazut": false,
+      "favorit": false,
+      "gen": "Sci-Fi",
+      "ratingDb": 8,
+      "recenzie": "",
+      "notaTa": 0,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+      "regizor": "Denis Villeneuve",
+      "cast": "Ryan Gosling, Harrison Ford, Ana de Armas",
+      "sinopsis": "Un nou blade runner descoperă un secret îngropat de decenii care ar putea arunca în haos ce a mai rămas din societate.",
+      "recenziiComunitate": [
+        {
+          "id": 1201,
+          "userId": 6,
+          "autor": "@desert_watcher",
+          "nota": 10,
+          "data": "2026-11-19",
+          "text": "Imaginea lui Roger Deakins transformă fiecare scenă într-un tablou.",
+          "likes": 18
+        },
+        {
+          "id": 1202,
+          "userId": 7,
+          "autor": "@neo_99",
+          "nota": 9,
+          "data": "2026-11-10",
+          "text": "Una dintre puținele continuări care egalează atmosfera originalului.",
+          "likes": 11
+        },
+        {
+          "id": 1203,
+          "userId": 1,
+          "autor": "@cinefil_ro",
+          "nota": 9,
+          "data": "2026-10-31",
+          "text": "Lent și contemplativ în cel mai bun mod posibil. Coloană sonoră copleșitoare.",
+          "likes": 9
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "titlu": "The Grand Budapest Hotel",
+      "an": 2014,
+      "durata": 99,
+      "vazut": false,
+      "favorit": false,
+      "gen": "Comedy",
+      "ratingDb": 8.1,
+      "recenzie": "",
+      "notaTa": 0,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+      "regizor": "Wes Anderson",
+      "cast": "Ralph Fiennes, Tony Revolori, Saoirse Ronan",
+      "sinopsis": "Aventurile legendarului concierge Gustave H. și ale ucenicului său Zero într-un celebru hotel european din perioada interbelică.",
+      "recenziiComunitate": [
+        {
+          "id": 1301,
+          "userId": 2,
+          "autor": "@andreea_v",
+          "nota": 9,
+          "data": "2026-11-20",
+          "text": "Simetrie perfectă, umor rafinat și un Ralph Fiennes absolut savuros.",
+          "likes": 12
+        },
+        {
+          "id": 1302,
+          "userId": 10,
+          "autor": "@jazz_nights",
+          "nota": 9,
+          "data": "2026-11-12",
+          "text": "O cutie de bijuterii cinematografică, plină de nostalgie și culori pastel.",
+          "likes": 8
+        },
+        {
+          "id": 1303,
+          "userId": 12,
+          "autor": "@midnight_reel",
+          "nota": 8,
+          "data": "2026-11-01",
+          "text": "Vesel la suprafață, dar cu o melancolie neașteptată în spate.",
+          "likes": 6
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "titlu": "Se7en",
+      "an": 1995,
+      "durata": 127,
+      "vazut": false,
+      "favorit": false,
+      "gen": "Thriller",
+      "ratingDb": 8.6,
+      "recenzie": "",
+      "notaTa": 0,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/6yoghtyTpznpBik8EngEmJskVUO.jpg",
+      "regizor": "David Fincher",
+      "cast": "Brad Pitt, Morgan Freeman, Gwyneth Paltrow",
+      "sinopsis": "Doi detectivi cu temperamente opuse urmăresc un criminal în serie ale cărui crime urmează cele șapte păcate capitale.",
+      "recenziiComunitate": [
+        {
+          "id": 1401,
+          "userId": 11,
+          "autor": "@fincher_fan",
+          "nota": 10,
+          "data": "2026-11-21",
+          "text": "Atmosfera ploioasă și deznodământul din deșert rămân standardul absolut pentru thrillere.",
+          "likes": 20
+        },
+        {
+          "id": 1402,
+          "userId": 5,
+          "autor": "@elena_noir",
+          "nota": 9,
+          "data": "2026-11-14",
+          "text": "Sumbru, impecabil filmat și cu o chimie grozavă între Freeman și Pitt.",
+          "likes": 11
+        },
+        {
+          "id": 1403,
+          "userId": 8,
+          "autor": "@gotham_critic",
+          "nota": 9,
+          "data": "2026-11-03",
+          "text": "Se simte intensitatea fiecărui indiciu. Finalul nu se uită niciodată.",
+          "likes": 9
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "titlu": "Get Out",
+      "an": 2017,
+      "durata": 104,
+      "vazut": false,
+      "favorit": false,
+      "gen": "Horror",
+      "ratingDb": 7.8,
+      "recenzie": "",
+      "notaTa": 0,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
+      "regizor": "Jordan Peele",
+      "cast": "Daniel Kaluuya, Allison Williams, Bradley Whitford",
+      "sinopsis": "Un tânăr fotograf își vizitează pentru prima dată părinții iubitei sale la conacul lor izolat, unde comportamentul familiei devine tot mai tulburător.",
+      "recenziiComunitate": [
+        {
+          "id": 1501,
+          "userId": 12,
+          "autor": "@midnight_reel",
+          "nota": 9,
+          "data": "2026-11-22",
+          "text": "Horror psihologic inteligent care te ține încordat fără jump-scares ieftine.",
+          "likes": 13
+        },
+        {
+          "id": 1502,
+          "userId": 5,
+          "autor": "@elena_noir",
+          "nota": 8,
+          "data": "2026-11-11",
+          "text": "Scenariu strâns, plin de detalii subtile care capătă sens la final.",
+          "likes": 7
+        },
+        {
+          "id": 1503,
+          "userId": 8,
+          "autor": "@gotham_critic",
+          "nota": 8,
+          "data": "2026-10-26",
+          "text": "Debut regizoral curajos și foarte bine dozat ca suspans.",
+          "likes": 5
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "titlu": "The Lord of the Rings: The Fellowship of the Ring",
+      "an": 2001,
+      "durata": 178,
+      "vazut": false,
+      "favorit": true,
+      "gen": "Adventure",
+      "ratingDb": 8.9,
+      "recenzie": "",
+      "notaTa": 0,
+      "posterUrl": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+      "regizor": "Peter Jackson",
+      "cast": "Elijah Wood, Ian McKellen, Viggo Mortensen",
+      "sinopsis": "Un hobbit tânăr și opt însoțitori pornesc într-o călătorie primejdioasă pentru a distruge Inelul Unic în focurile Muntelui Osândei.",
+      "recenziiComunitate": [
+        {
+          "id": 1601,
+          "userId": 6,
+          "autor": "@desert_watcher",
+          "nota": 10,
+          "data": "2026-11-20",
+          "text": "Lume construită cu o pasiune rar întâlnită. Muzica lui Howard Shore e magie pură.",
+          "likes": 24
+        },
+        {
+          "id": 1602,
+          "userId": 3,
+          "autor": "@alex_movies",
+          "nota": 10,
+          "data": "2026-11-15",
+          "text": "Încă arată mai bine decât majoritatea blockbusterelor de azi.",
+          "likes": 16
+        },
+        {
+          "id": 1603,
+          "userId": 7,
+          "autor": "@neo_99",
+          "nota": 9,
+          "data": "2026-11-05",
+          "text": "Aventură pură de la Comitat până la Minele Moriei.",
+          "likes": 10
+        },
+        {
+          "id": 1604,
+          "userId": 4,
+          "autor": "@mihai_k",
+          "nota": 9,
+          "data": "2026-10-24",
+          "text": "Maraton obligatoriu în fiecare iarnă, varianta extinsă.",
+          "likes": 8
+        }
+      ]
+    }
+  ],
+  "utilizatori": [
+    {
+      "id": 1,
+      "handle": "@cinefil_ro",
+      "nume": "Radu Ionescu",
+      "avatarCuloare": "#06b6d4",
+      "bio": "Pasionat de SF hard, regie vizuală și coloane sonore compuse de Hans Zimmer.",
+      "genPreferat": "Sci-Fi",
+      "filmeVazuteIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        12,
+        16
+      ],
+      "liste": [
+        {
+          "id": "l1",
+          "titlu": "Capodopere Sci-Fi de revăzut",
+          "descriere": "Filme despre timp, memorie și lumi futuriste.",
+          "filmIds": [
+            1,
+            12,
+            4,
+            2
+          ]
+        },
+        {
+          "id": "l2",
+          "titlu": "Weekend Christopher Nolan",
+          "descriere": "Ordinea ideală pentru un maraton Nolan.",
+          "filmIds": [
+            2,
+            1,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "handle": "@andreea_v",
+      "nume": "Andreea Vasilescu",
+      "avatarCuloare": "#a855f7",
+      "bio": "Îmi plac poveștile cu emoție reală, cinematografia colorată și scenariile inteligente.",
+      "genPreferat": "Drama",
+      "filmeVazuteIds": [
+        1,
+        7,
+        9,
+        10,
+        13
+      ],
+      "liste": [
+        {
+          "id": "l3",
+          "titlu": "Estetică și emoție",
+          "descriere": "Filme în care fiecare cadru ar putea fi pus în ramă.",
+          "filmIds": [
+            13,
+            7,
+            1,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "handle": "@alex_movies",
+      "nume": "Alexandru Popa",
+      "avatarCuloare": "#f59e0b",
+      "bio": "Colecționar de filme de nota 10, de la thrillere intense la aventuri epice.",
+      "genPreferat": "Adventure",
+      "filmeVazuteIds": [
+        2,
+        5,
+        10,
+        16,
+        1,
+        4
+      ],
+      "liste": [
+        {
+          "id": "l4",
+          "titlu": "Top 4 all-time",
+          "descriere": "Filmele pe care le recomand oricui fără ezitare.",
+          "filmIds": [
+            10,
+            16,
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "handle": "@mihai_k",
+      "nume": "Mihai Kovacs",
+      "avatarCuloare": "#10b981",
+      "bio": "Atent la montaj, ritm și coregrafie. Nu dau nota 10 ușor.",
+      "genPreferat": "Action",
+      "filmeVazuteIds": [
+        2,
+        4,
+        5,
+        11,
+        16
+      ],
+      "liste": [
+        {
+          "id": "l5",
+          "titlu": "Adrenalină și montaj strâns",
+          "descriere": "Zero minute moarte de la început până la final.",
+          "filmIds": [
+            11,
+            4,
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "handle": "@elena_noir",
+      "nume": "Elena Dumitrescu",
+      "avatarCuloare": "#ec4899",
+      "bio": "Fană neo-noir, thrillere psihologice și răsturnări de situație care te lasă fără replică.",
+      "genPreferat": "Thriller",
+      "filmeVazuteIds": [
+        5,
+        8,
+        9,
+        14,
+        15
+      ],
+      "liste": [
+        {
+          "id": "l6",
+          "titlu": "Seară de suspans",
+          "descriere": "Thrillere întunecate cu scenarii brici.",
+          "filmIds": [
+            9,
+            14,
+            8,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "handle": "@desert_watcher",
+      "nume": "Vlad Marinescu",
+      "avatarCuloare": "#eab308",
+      "bio": "Iubesc world-building-ul la scară mare: Villeneuve, Jackson și experiențele IMAX.",
+      "genPreferat": "Adventure",
+      "filmeVazuteIds": [
+        1,
+        3,
+        12,
+        16
+      ],
+      "liste": [
+        {
+          "id": "l7",
+          "titlu": "Lumi colosale (IMAX)",
+          "descriere": "Cinema epic care cere cel mai bun sistem audio.",
+          "filmIds": [
+            3,
+            12,
+            16,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "handle": "@neo_99",
+      "nume": "Andrei Stanciu",
+      "avatarCuloare": "#22d3ee",
+      "bio": "Crescut cu filmele SF din 1999. Caut mereu filme cu idei filosofice puternice.",
+      "genPreferat": "Sci-Fi",
+      "filmeVazuteIds": [
+        4,
+        8,
+        12,
+        16,
+        2
+      ],
+      "liste": [
+        {
+          "id": "l8",
+          "titlu": "Clasicii anului 1999 & cyberpunk",
+          "descriere": "Filme care au rescris regulile genului.",
+          "filmIds": [
+            4,
+            8,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "handle": "@gotham_critic",
+      "nume": "Cristian Tudor",
+      "avatarCuloare": "#ef4444",
+      "bio": "Urmăresc cu interes antagoniștii memorabili și filmele polițiste tensionate.",
+      "genPreferat": "Action",
+      "filmeVazuteIds": [
+        4,
+        5,
+        14,
+        15
+      ],
+      "liste": [
+        {
+          "id": "l9",
+          "titlu": "Cei mai buni antagoniști",
+          "descriere": "Filme dominate de prezența personajului negativ.",
+          "filmIds": [
+            5,
+            14,
+            4,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "handle": "@istoria_film",
+      "nume": "Ioana Gheorghe",
+      "avatarCuloare": "#6366f1",
+      "bio": "Apreciez dramele biografice, comentariul social și clasicii care trec testul timpului.",
+      "genPreferat": "Drama",
+      "filmeVazuteIds": [
+        6,
+        9,
+        10,
+        8
+      ],
+      "liste": [
+        {
+          "id": "l10",
+          "titlu": "Drame esențiale",
+          "descriere": "Povești puternice despre caracter și societate.",
+          "filmIds": [
+            10,
+            9,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "handle": "@jazz_nights",
+      "nume": "Mara Enescu",
+      "avatarCuloare": "#f97316",
+      "bio": "Muzica din film contează pentru mine la fel de mult ca imaginea. Fană Damien Chazelle.",
+      "genPreferat": "Drama",
+      "filmeVazuteIds": [
+        7,
+        10,
+        11,
+        13
+      ],
+      "liste": [
+        {
+          "id": "l11",
+          "titlu": "Dublă Damien Chazelle & muzică",
+          "descriere": "Pasiune, jazz și coloane sonore de neuitat.",
+          "filmIds": [
+            11,
+            7,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "handle": "@fincher_fan",
+      "nume": "Bogdan Preda",
+      "avatarCuloare": "#64748b",
+      "bio": "Obsedat de detaliile regizorale ale lui David Fincher și de poveștile psihologice.",
+      "genPreferat": "Thriller",
+      "filmeVazuteIds": [
+        2,
+        6,
+        8,
+        11,
+        14
+      ],
+      "liste": [
+        {
+          "id": "l12",
+          "titlu": "Precizie regizorală",
+          "descriere": "Filme în care niciun cadru nu e lăsat la voia întâmplării.",
+          "filmIds": [
+            14,
+            8,
+            11,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "handle": "@midnight_reel",
+      "nume": "Diana Munteanu",
+      "avatarCuloare": "#e11d48",
+      "bio": "Filme văzute după miezul nopții: horror psihologic, comedii excentrice și SF vizual.",
+      "genPreferat": "Horror",
+      "filmeVazuteIds": [
+        3,
+        7,
+        13,
+        15
+      ],
+      "liste": [
+        {
+          "id": "l13",
+          "titlu": "Selecții de noapte",
+          "descriere": "Mix eclectic de suspans, culoare și surprize.",
+          "filmIds": [
+            15,
+            13,
+            3,
+            7
+          ]
+        }
+      ]
+    }
+  ]
+}
