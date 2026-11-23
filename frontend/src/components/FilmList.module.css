@@ -1,0 +1,24 @@
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1.4rem;
+}
+
+.emptyFiltered {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.resetBtn {
+  background: var(--bg-card);
+  color: var(--accent-cyan);
+  border: 1px solid var(--accent-cyan);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,123 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.inner {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0.75rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text-main);
+}
+
+.logoBadge {
+  background: var(--accent-gold);
+  color: #0b0f19;
+  font-weight: 800;
+  padding: 4px 11px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+}
+
+.logoText {
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  font-size: 1.1rem;
+}
+
+.rightArea {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.link {
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.link:hover {
+  color: var(--text-main);
+  background: var(--bg-card);
+}
+
+.active {
+  color: #0b0f19;
+  background: var(--accent-cyan);
+}
+
+.active:hover {
+  color: #0b0f19;
+  background: var(--accent-cyan-hover);
+}
+
+.themeToggle {
+  background: transparent;
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.themeToggle:hover {
+  background: var(--bg-card);
+  border-color: var(--accent-cyan);
+}
+
+.main {
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  padding: 1.5rem 1rem;
+  border-top: 1px solid var(--border-color);
+  margin-top: 2rem;
+}
+
+@media (max-width: 550px) {
+  .inner {
+    padding: 0.75rem 1rem;
+  }
+}
